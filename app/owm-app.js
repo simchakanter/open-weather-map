@@ -1,4 +1,4 @@
-var owmApp = angular.module('OWMApp', ['ngRoute']);
+var owmApp = angular.module('OWMApp', ['ngRoute', 'ngAnimate']);
 
 owmApp.value('owmCities', ['New York', 'Dallas', 'Chicago']);
 
